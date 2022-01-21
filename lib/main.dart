@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
+import 'package:ecommerce/screens/cart_screen.dart';
 import 'package:ecommerce/screens/details_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Ecommerce App",
-      home: DetailsPage(),
+      home: CartPage(),
     );
   }
 }
